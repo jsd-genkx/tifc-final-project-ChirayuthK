@@ -1,17 +1,17 @@
 ### Get all Messages
 GET http://localhost:3000/messages
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE1MDAyOWQ1MTJhODY0MTgxODA0M2MiLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjIwNzMyMn0.B30ADhsCUN3czClM5jv-hrjcGr3iIncYcpyW9Wn-iy4
+Authorization: Bearer
 
 ### Get a Message by ID
 GET http://localhost:3000/messages/6815027ad512a86418180441
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE1MDAyOWQ1MTJhODY0MTgxODA0M2MiLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjIwNzMyMn0.B30ADhsCUN3czClM5jv-hrjcGr3iIncYcpyW9Wn-iy4
+Authorization: Bearer 
 
 ### Create a new message
 POST Http://localhost:3000/messages
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE1MDAyOWQ1MTJhODY0MTgxODA0M2MiLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjIwNzMyMn0.B30ADhsCUN3czClM5jv-hrjcGr3iIncYcpyW9Wn-iy4
+Authorization: Bearer 
 
 {
     "text": "JSD9",
@@ -40,7 +40,7 @@ Content-Type: application/json
 ### Update a message by ID
 PUT Http://localhost:3000/messages/681508d894526cf1b9984114
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE1MDAyOWQ1MTJhODY0MTgxODA0M2MiLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjIwNzMyMn0.B30ADhsCUN3czClM5jv-hrjcGr3iIncYcpyW9Wn-iy4
+Authorization: Bearer
 
 {
     "text": "Final Project เสร็จแล้วจ้า",
@@ -50,5 +50,5 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE1MDAyO
 ### Delete a message by ID
 DELETE http://localhost:3000/messages/6815028cd512a86418180444
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE1MDAyOWQ1MTJhODY0MTgxODA0M2MiLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjIwNzMyMn0.B30ADhsCUN3czClM5jv-hrjcGr3iIncYcpyW9Wn-iy4
+Authorization: Bearer
 
