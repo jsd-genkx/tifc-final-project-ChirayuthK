@@ -1,0 +1,29 @@
+{
+  "name": "tifc-final-project-chirayuthk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsd-genkx/tifc-final-project-ChirayuthK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jsd-genkx/tifc-final-project-ChirayuthK/issues"
+  },
+  "homepage": "https://github.com/jsd-genkx/tifc-final-project-ChirayuthK#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.1"
+  }
+}

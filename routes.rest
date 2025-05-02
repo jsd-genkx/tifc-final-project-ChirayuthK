@@ -1,0 +1,54 @@
+### Get all Messages
+GET http://localhost:3000/messages
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE1MDAyOWQ1MTJhODY0MTgxODA0M2MiLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjIwNzMyMn0.B30ADhsCUN3czClM5jv-hrjcGr3iIncYcpyW9Wn-iy4
+
+### Get a Message by ID
+GET http://localhost:3000/messages/6815027ad512a86418180441
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE1MDAyOWQ1MTJhODY0MTgxODA0M2MiLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjIwNzMyMn0.B30ADhsCUN3czClM5jv-hrjcGr3iIncYcpyW9Wn-iy4
+
+### Create a new message
+POST Http://localhost:3000/messages
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE1MDAyOWQ1MTJhODY0MTgxODA0M2MiLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjIwNzMyMn0.B30ADhsCUN3czClM5jv-hrjcGr3iIncYcpyW9Wn-iy4
+
+{
+    "text": "JSD9",
+    "user_id": "68150029d512a8641818043c"
+  }
+
+### Create a new user
+POST Http://localhost:3000/users/register
+Content-Type: application/json
+
+{
+    "username": "Paween",
+    "password": "123456",
+    "role": "user"
+  }
+
+### User Login
+POST Http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+    "username": "Paween",
+    "password": "123456"
+  }
+
+### Update a message by ID
+PUT Http://localhost:3000/messages/681508d894526cf1b9984114
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE1MDAyOWQ1MTJhODY0MTgxODA0M2MiLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjIwNzMyMn0.B30ADhsCUN3czClM5jv-hrjcGr3iIncYcpyW9Wn-iy4
+
+{
+    "text": "Final Project เสร็จแล้วจ้า",
+    "user_id": "68150029d512a8641818043c"
+  }
+
+### Delete a message by ID
+DELETE http://localhost:3000/messages/6815028cd512a86418180444
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE1MDAyOWQ1MTJhODY0MTgxODA0M2MiLCJyb2xlIjoidXNlciIsImlhdCI6MTc0NjIwNzMyMn0.B30ADhsCUN3czClM5jv-hrjcGr3iIncYcpyW9Wn-iy4
+
